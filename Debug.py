@@ -11,7 +11,7 @@ def run():
     Concert.drop_table()
     Concert.create_table()
     
-    band1=Band.create("Rose","Sindo")
+    band1=Band.create("Janabi","Sindo")
     band2=Band.create("Karanja","Kisumu")
     venue1=Venue.create("Kicc","Nairobi")
     venue2=Venue.create("Impala","Kisumu")
